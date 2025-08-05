@@ -13,6 +13,7 @@ I built four different neural network architectures to see which one worked best
 - **Model 3:** Complex 7-layer network with Sigmoid activation and dropout for regularization
 - **TensorBoard integration:** Training metrics visualization and comparison
 - **Model 4:** 6-layer network with Tanh activation (60→50→40→20→15→10→2)
+
 I wanted to test different depths and activation functions to see what works for this problem.
 
 ## Gradient Descent Algorithms
@@ -29,6 +30,7 @@ I tested different combinations of:
 - **Learning rates:** 0.001, 0.01, 0.1
 - **Batch sizes:** 16, 32, 64
 - **Optimizers:** SGD, Adam, RMSprop, Adagrad
+
 I trained each combination for 1000 epochs and picked the settings that gave the lowest validation loss. This took a long time but helped
 find the best setup for each model.
 
