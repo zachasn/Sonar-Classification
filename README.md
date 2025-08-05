@@ -49,7 +49,7 @@ The system evaluates:
 - **Optimizers:** SGD, Adam, RMSprop, Adagrad
 - **Learning rates:** 0.001, 0.01, 0.1
 - **Batch sizes:** 16, 32, 64
-- **Training epochs:** 1000 per configuration
+- **Training epochs:** 1000
 
 ## Final Model Performance
 Model 2 performed best with 90.48% accuracy on the test set. It used:
